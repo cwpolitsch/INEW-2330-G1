@@ -111,6 +111,7 @@
             this.button4.TabIndex = 8;
             this.button4.Text = "Return";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // btnEdit
             // 
@@ -167,18 +168,21 @@
             this.mnuitemReturn.Name = "mnuitemReturn";
             this.mnuitemReturn.Size = new System.Drawing.Size(180, 22);
             this.mnuitemReturn.Text = "Return";
+            this.mnuitemReturn.Click += new System.EventHandler(this.mnuitemReturn_Click);
             // 
             // mnuitemLogOff
             // 
             this.mnuitemLogOff.Name = "mnuitemLogOff";
             this.mnuitemLogOff.Size = new System.Drawing.Size(180, 22);
             this.mnuitemLogOff.Text = "Log Off";
+            this.mnuitemLogOff.Click += new System.EventHandler(this.mnuitemLogOff_Click);
             // 
             // mnuItemExit
             // 
             this.mnuItemExit.Name = "mnuItemExit";
             this.mnuItemExit.Size = new System.Drawing.Size(180, 22);
             this.mnuItemExit.Text = "Exit";
+            this.mnuItemExit.Click += new System.EventHandler(this.mnuItemExit_Click);
             // 
             // mnuHelp
             // 

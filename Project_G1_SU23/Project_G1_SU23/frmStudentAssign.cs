@@ -16,5 +16,10 @@ namespace Project_G1_SU23
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

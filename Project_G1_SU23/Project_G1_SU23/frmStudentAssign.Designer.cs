@@ -40,6 +40,7 @@
             this.tbxStudent = new System.Windows.Forms.TextBox();
             this.tbxClassID = new System.Windows.Forms.TextBox();
             this.btnAssignStudent = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudentAssign)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudentAssignTwo)).BeginInit();
             this.SuspendLayout();
@@ -133,11 +134,22 @@
             this.btnAssignStudent.Text = "Assign Student";
             this.btnAssignStudent.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(680, 525);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(108, 44);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Return";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frmStudentAssign
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 581);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnAssignStudent);
             this.Controls.Add(this.tbxClassID);
             this.Controls.Add(this.tbxStudent);
@@ -168,5 +180,6 @@
         private System.Windows.Forms.TextBox tbxStudent;
         private System.Windows.Forms.TextBox tbxClassID;
         private System.Windows.Forms.Button btnAssignStudent;
+        private System.Windows.Forms.Button button1;
     }
 }

@@ -20,3 +20,46 @@ C:\Users\titet\Desktop\School\Summer 2023\Project_G1_SU23\Project_G1_SU23\obj\De
 C:\Users\titet\Desktop\School\Summer 2023\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.csproj.CoreCompileInputs.cache
 C:\Users\titet\Desktop\School\Summer 2023\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.exe
 C:\Users\titet\Desktop\School\Summer 2023\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.pdb
+D:\__Team1\Prototype\Project_G1_SU23\Project_G1_SU23\bin\Debug\Project_G1_SU23.exe.config
+D:\__Team1\Prototype\Project_G1_SU23\Project_G1_SU23\bin\Debug\Project_G1_SU23.exe
+D:\__Team1\Prototype\Project_G1_SU23\Project_G1_SU23\bin\Debug\Project_G1_SU23.pdb
+D:\__Team1\Prototype\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.csproj.AssemblyReference.cache
+D:\__Team1\Prototype\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.Admin.resources
+D:\__Team1\Prototype\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.EditClasses.resources
+D:\__Team1\Prototype\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.frmAttendance.resources
+D:\__Team1\Prototype\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.frmAttendance10.resources
+D:\__Team1\Prototype\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.frmAttendance5.resources
+D:\__Team1\Prototype\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.frmDepartmentHead.resources
+D:\__Team1\Prototype\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.frmEditTeacher.resources
+D:\__Team1\Prototype\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.frmGrades.resources
+D:\__Team1\Prototype\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.frmLogOn.resources
+D:\__Team1\Prototype\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.frmStudentAssign.resources
+D:\__Team1\Prototype\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.frmTeacher.resources
+D:\__Team1\Prototype\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.Properties.Resources.resources
+D:\__Team1\Prototype\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.StudentEdit.resources
+D:\__Team1\Prototype\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.csproj.GenerateResource.cache
+D:\__Team1\Prototype\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.csproj.CoreCompileInputs.cache
+D:\__Team1\Prototype\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.exe
+D:\__Team1\Prototype\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.pdb
+C:\Users\zzrai\Downloads\Project_G1_SU23 (3)\Project_G1_SU23\Project_G1_SU23\bin\Debug\Project_G1_SU23.exe.config
+C:\Users\zzrai\Downloads\Project_G1_SU23 (3)\Project_G1_SU23\Project_G1_SU23\bin\Debug\Project_G1_SU23.exe
+C:\Users\zzrai\Downloads\Project_G1_SU23 (3)\Project_G1_SU23\Project_G1_SU23\bin\Debug\Project_G1_SU23.pdb
+C:\Users\zzrai\Downloads\Project_G1_SU23 (3)\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.csproj.AssemblyReference.cache
+C:\Users\zzrai\Downloads\Project_G1_SU23 (3)\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.frmAttendance.resources
+C:\Users\zzrai\Downloads\Project_G1_SU23 (3)\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.frmAttendance10.resources
+C:\Users\zzrai\Downloads\Project_G1_SU23 (3)\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.frmAttendance5.resources
+C:\Users\zzrai\Downloads\Project_G1_SU23 (3)\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.frmDepartmentHead.resources
+C:\Users\zzrai\Downloads\Project_G1_SU23 (3)\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.frmEditTeacher.resources
+C:\Users\zzrai\Downloads\Project_G1_SU23 (3)\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.frmGrades.resources
+C:\Users\zzrai\Downloads\Project_G1_SU23 (3)\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.frmLogOn.resources
+C:\Users\zzrai\Downloads\Project_G1_SU23 (3)\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.frmStudentAssign.resources
+C:\Users\zzrai\Downloads\Project_G1_SU23 (3)\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.frmTeacher.resources
+C:\Users\zzrai\Downloads\Project_G1_SU23 (3)\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.Properties.Resources.resources
+C:\Users\zzrai\Downloads\Project_G1_SU23 (3)\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.csproj.GenerateResource.cache
+C:\Users\zzrai\Downloads\Project_G1_SU23 (3)\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.csproj.CoreCompileInputs.cache
+C:\Users\zzrai\Downloads\Project_G1_SU23 (3)\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.exe
+C:\Users\zzrai\Downloads\Project_G1_SU23 (3)\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.pdb
+C:\Users\zzrai\Downloads\Project_G1_SU23 (3)\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.csproj.SuggestedBindingRedirects.cache
+C:\Users\zzrai\Downloads\Project_G1_SU23 (3)\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.frmAdmin.resources
+C:\Users\zzrai\Downloads\Project_G1_SU23 (3)\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.frmEditClasses.resources
+C:\Users\zzrai\Downloads\Project_G1_SU23 (3)\Project_G1_SU23\Project_G1_SU23\obj\Debug\Project_G1_SU23.frmStudentEdit.resources

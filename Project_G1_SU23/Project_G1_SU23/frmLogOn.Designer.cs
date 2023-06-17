@@ -41,7 +41,7 @@
             // 
             this.tbxUserName.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbxUserName.Location = new System.Drawing.Point(177, 55);
-            this.tbxUserName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbxUserName.Margin = new System.Windows.Forms.Padding(4);
             this.tbxUserName.Name = "tbxUserName";
             this.tbxUserName.Size = new System.Drawing.Size(236, 35);
             this.tbxUserName.TabIndex = 0;
@@ -51,7 +51,7 @@
             // 
             this.tbxPassword.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbxPassword.Location = new System.Drawing.Point(177, 128);
-            this.tbxPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbxPassword.Margin = new System.Windows.Forms.Padding(4);
             this.tbxPassword.Name = "tbxPassword";
             this.tbxPassword.Size = new System.Drawing.Size(236, 35);
             this.tbxPassword.TabIndex = 1;
@@ -60,17 +60,18 @@
             // btnLogIn
             // 
             this.btnLogIn.Location = new System.Drawing.Point(216, 196);
-            this.btnLogIn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLogIn.Margin = new System.Windows.Forms.Padding(4);
             this.btnLogIn.Name = "btnLogIn";
             this.btnLogIn.Size = new System.Drawing.Size(164, 69);
             this.btnLogIn.TabIndex = 2;
             this.btnLogIn.Text = "Log In";
             this.btnLogIn.UseVisualStyleBackColor = true;
+            this.btnLogIn.Click += new System.EventHandler(this.btnLogIn_Click);
             // 
             // btnReset
             // 
             this.btnReset.Location = new System.Drawing.Point(216, 283);
-            this.btnReset.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnReset.Margin = new System.Windows.Forms.Padding(4);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(164, 69);
             this.btnReset.TabIndex = 3;
@@ -122,7 +123,7 @@
             this.Controls.Add(this.btnLogIn);
             this.Controls.Add(this.tbxPassword);
             this.Controls.Add(this.tbxUserName);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmLogOn";

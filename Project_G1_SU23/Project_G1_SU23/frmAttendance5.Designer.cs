@@ -69,6 +69,7 @@
             this.returnToMainToolStripMenuItem.Name = "returnToMainToolStripMenuItem";
             this.returnToMainToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.returnToMainToolStripMenuItem.Text = "Return to Main";
+            this.returnToMainToolStripMenuItem.Click += new System.EventHandler(this.returnToMainToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
             // 
@@ -114,6 +115,7 @@
             this.gradesToolStripMenuItem.Name = "gradesToolStripMenuItem";
             this.gradesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.gradesToolStripMenuItem.Text = "Grades";
+            this.gradesToolStripMenuItem.Click += new System.EventHandler(this.gradesToolStripMenuItem_Click);
             // 
             // logOffToolStripMenuItem
             // 
@@ -126,6 +128,7 @@
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // comboBox6
             // 

@@ -26,5 +26,21 @@ namespace Project_G1_SU23
         {
 
         }
+
+        private void returnToMainToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void gradesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmGrades grades = new frmGrades();
+            grades.ShowDialog();
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

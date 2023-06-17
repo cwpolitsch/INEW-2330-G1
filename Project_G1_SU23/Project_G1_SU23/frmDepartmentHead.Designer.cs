@@ -101,6 +101,7 @@
             this.mnuitemGrades.Name = "mnuitemGrades";
             this.mnuitemGrades.Size = new System.Drawing.Size(180, 22);
             this.mnuitemGrades.Text = "Grades";
+            this.mnuitemGrades.Click += new System.EventHandler(this.mnuitemGrades_Click);
             // 
             // mnuItemEdit
             // 
@@ -116,12 +117,14 @@
             this.mnuItemsStudents.Name = "mnuItemsStudents";
             this.mnuItemsStudents.Size = new System.Drawing.Size(180, 22);
             this.mnuItemsStudents.Text = "Students";
+            this.mnuItemsStudents.Click += new System.EventHandler(this.mnuItemsStudents_Click);
             // 
             // mnuItemsTeachers
             // 
             this.mnuItemsTeachers.Name = "mnuItemsTeachers";
             this.mnuItemsTeachers.Size = new System.Drawing.Size(180, 22);
             this.mnuItemsTeachers.Text = "Teachers";
+            this.mnuItemsTeachers.Click += new System.EventHandler(this.mnuItemsTeachers_Click);
             // 
             // mnuItemLogOff
             // 
@@ -135,6 +138,7 @@
             this.mnuitemExit.Name = "mnuitemExit";
             this.mnuitemExit.Size = new System.Drawing.Size(180, 22);
             this.mnuitemExit.Text = "Exit";
+            this.mnuitemExit.Click += new System.EventHandler(this.mnuitemExit_Click);
             // 
             // mnuHelp
             // 
@@ -148,13 +152,13 @@
             // mnuItemAbout
             // 
             this.mnuItemAbout.Name = "mnuItemAbout";
-            this.mnuItemAbout.Size = new System.Drawing.Size(107, 22);
+            this.mnuItemAbout.Size = new System.Drawing.Size(180, 22);
             this.mnuItemAbout.Text = "About";
             // 
             // mnuItemHelp
             // 
             this.mnuItemHelp.Name = "mnuItemHelp";
-            this.mnuItemHelp.Size = new System.Drawing.Size(107, 22);
+            this.mnuItemHelp.Size = new System.Drawing.Size(180, 22);
             this.mnuItemHelp.Text = "Help";
             // 
             // btnEditStudents
@@ -166,6 +170,7 @@
             this.btnEditStudents.TabIndex = 176;
             this.btnEditStudents.Text = "Edit Students";
             this.btnEditStudents.UseVisualStyleBackColor = true;
+            this.btnEditStudents.Click += new System.EventHandler(this.btnEditStudents_Click);
             // 
             // btnEditTeachers
             // 
@@ -176,6 +181,7 @@
             this.btnEditTeachers.TabIndex = 177;
             this.btnEditTeachers.Text = "Edit Teachers";
             this.btnEditTeachers.UseVisualStyleBackColor = true;
+            this.btnEditTeachers.Click += new System.EventHandler(this.btnEditTeachers_Click);
             // 
             // btnAttendance
             // 
@@ -186,6 +192,7 @@
             this.btnAttendance.TabIndex = 178;
             this.btnAttendance.Text = "Attendance";
             this.btnAttendance.UseVisualStyleBackColor = true;
+            this.btnAttendance.Click += new System.EventHandler(this.btnAttendance_Click);
             // 
             // button4
             // 
@@ -196,6 +203,7 @@
             this.button4.TabIndex = 179;
             this.button4.Text = "Grades";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // dgvDepartmentHead
             // 

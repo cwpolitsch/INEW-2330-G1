@@ -37,9 +37,9 @@
             this.mnuHelp = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuItemAbout = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuItemLogOff = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuItemEdit = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuItemSeating = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuFile = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuItemGrades = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuAttendance = new System.Windows.Forms.MenuStrip();
             this.lblSelectedClass = new System.Windows.Forms.Label();
             this.lblClassID = new System.Windows.Forms.Label();
@@ -66,6 +66,7 @@
             this.btnGrades.TabIndex = 188;
             this.btnGrades.Text = "Grades";
             this.btnGrades.UseVisualStyleBackColor = true;
+            this.btnGrades.Click += new System.EventHandler(this.btnGrades_Click);
             // 
             // btnAttendance
             // 
@@ -76,18 +77,21 @@
             this.btnAttendance.TabIndex = 187;
             this.btnAttendance.Text = "Attendance";
             this.btnAttendance.UseVisualStyleBackColor = true;
+            this.btnAttendance.Click += new System.EventHandler(this.btnAttendance_Click);
             // 
             // mnuItemExit
             // 
             this.mnuItemExit.Name = "mnuItemExit";
-            this.mnuItemExit.Size = new System.Drawing.Size(145, 22);
+            this.mnuItemExit.Size = new System.Drawing.Size(180, 22);
             this.mnuItemExit.Text = "Exit";
+            this.mnuItemExit.Click += new System.EventHandler(this.mnuItemExit_Click);
             // 
             // dgvTeachers
             // 
             this.dgvTeachers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvTeachers.Location = new System.Drawing.Point(243, 90);
             this.dgvTeachers.Name = "dgvTeachers";
+            this.dgvTeachers.RowHeadersWidth = 51;
             this.dgvTeachers.Size = new System.Drawing.Size(826, 419);
             this.dgvTeachers.TabIndex = 189;
             // 
@@ -115,35 +119,39 @@
             // mnuItemLogOff
             // 
             this.mnuItemLogOff.Name = "mnuItemLogOff";
-            this.mnuItemLogOff.Size = new System.Drawing.Size(145, 22);
+            this.mnuItemLogOff.Size = new System.Drawing.Size(180, 22);
             this.mnuItemLogOff.Text = "Log Off";
-            // 
-            // mnuItemEdit
-            // 
-            this.mnuItemEdit.Name = "mnuItemEdit";
-            this.mnuItemEdit.Size = new System.Drawing.Size(145, 22);
-            this.mnuItemEdit.Text = "Edit";
+            this.mnuItemLogOff.Click += new System.EventHandler(this.mnuItemLogOff_Click);
             // 
             // mnuItemSeating
             // 
             this.mnuItemSeating.Name = "mnuItemSeating";
-            this.mnuItemSeating.Size = new System.Drawing.Size(145, 22);
+            this.mnuItemSeating.Size = new System.Drawing.Size(180, 22);
             this.mnuItemSeating.Text = "Seating Chart";
+            this.mnuItemSeating.Click += new System.EventHandler(this.mnuItemSeating_Click);
             // 
             // mnuFile
             // 
             this.mnuFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuItemSeating,
-            this.mnuItemEdit,
+            this.mnuItemGrades,
             this.mnuItemLogOff,
             this.mnuItemExit});
             this.mnuFile.Name = "mnuFile";
             this.mnuFile.Size = new System.Drawing.Size(37, 20);
             this.mnuFile.Text = "File";
             // 
+            // mnuItemGrades
+            // 
+            this.mnuItemGrades.Name = "mnuItemGrades";
+            this.mnuItemGrades.Size = new System.Drawing.Size(180, 22);
+            this.mnuItemGrades.Text = "Grades";
+            this.mnuItemGrades.Click += new System.EventHandler(this.mnuItemEdit_Click);
+            // 
             // mnuAttendance
             // 
             this.mnuAttendance.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.mnuAttendance.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.mnuAttendance.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuFile,
             this.mnuHelp});
@@ -209,11 +217,11 @@
         private System.Windows.Forms.ToolStripMenuItem mnuHelp;
         private System.Windows.Forms.ToolStripMenuItem mnuItemAbout;
         private System.Windows.Forms.ToolStripMenuItem mnuItemLogOff;
-        private System.Windows.Forms.ToolStripMenuItem mnuItemEdit;
         private System.Windows.Forms.ToolStripMenuItem mnuItemSeating;
         private System.Windows.Forms.ToolStripMenuItem mnuFile;
         private System.Windows.Forms.MenuStrip mnuAttendance;
         private System.Windows.Forms.Label lblSelectedClass;
         private System.Windows.Forms.Label lblClassID;
+        private System.Windows.Forms.ToolStripMenuItem mnuItemGrades;
     }
 }

@@ -21,5 +21,41 @@ namespace Project_G1_SU23
         {
 
         }
+
+        private void mnuItemLogOff_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            frmLogOn logon = new frmLogOn();
+            logon.ShowDialog();
+        }
+
+        private void mnuItemExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnAttendance_Click(object sender, EventArgs e)
+        {
+            frmAttendance attendance = new frmAttendance();
+            attendance.ShowDialog();
+        }
+
+        private void mnuItemSeating_Click(object sender, EventArgs e)
+        {
+            frmAttendance attendance = new frmAttendance(); 
+            attendance.ShowDialog();
+        }
+
+        private void btnGrades_Click(object sender, EventArgs e)
+        {
+            frmGrades grades = new frmGrades();
+            grades.ShowDialog();
+        }
+
+        private void mnuItemEdit_Click(object sender, EventArgs e)
+        {
+            frmGrades grades = new frmGrades();
+            grades.ShowDialog();
+        }
     }
 }

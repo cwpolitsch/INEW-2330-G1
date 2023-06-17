@@ -60,9 +60,10 @@
             this.lblClassID.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblClassID.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblClassID.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblClassID.Location = new System.Drawing.Point(114, 66);
+            this.lblClassID.Location = new System.Drawing.Point(152, 81);
+            this.lblClassID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblClassID.Name = "lblClassID";
-            this.lblClassID.Size = new System.Drawing.Size(65, 26);
+            this.lblClassID.Size = new System.Drawing.Size(86, 32);
             this.lblClassID.TabIndex = 176;
             this.lblClassID.Text = "Class ID";
             this.lblClassID.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -70,91 +71,103 @@
             // lblSelectedClass
             // 
             this.lblSelectedClass.AutoSize = true;
-            this.lblSelectedClass.Location = new System.Drawing.Point(12, 73);
+            this.lblSelectedClass.Location = new System.Drawing.Point(16, 90);
+            this.lblSelectedClass.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSelectedClass.Name = "lblSelectedClass";
-            this.lblSelectedClass.Size = new System.Drawing.Size(77, 13);
+            this.lblSelectedClass.Size = new System.Drawing.Size(101, 17);
             this.lblSelectedClass.TabIndex = 175;
             this.lblSelectedClass.Text = "Selected Class";
             // 
             // dgvGrades
             // 
             this.dgvGrades.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvGrades.Location = new System.Drawing.Point(243, 66);
+            this.dgvGrades.Location = new System.Drawing.Point(324, 81);
+            this.dgvGrades.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvGrades.Name = "dgvGrades";
-            this.dgvGrades.Size = new System.Drawing.Size(392, 419);
+            this.dgvGrades.RowHeadersWidth = 51;
+            this.dgvGrades.Size = new System.Drawing.Size(523, 516);
             this.dgvGrades.TabIndex = 181;
             // 
             // lblSelectedStudent
             // 
             this.lblSelectedStudent.AutoSize = true;
-            this.lblSelectedStudent.Location = new System.Drawing.Point(12, 110);
+            this.lblSelectedStudent.Location = new System.Drawing.Point(16, 135);
+            this.lblSelectedStudent.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSelectedStudent.Name = "lblSelectedStudent";
-            this.lblSelectedStudent.Size = new System.Drawing.Size(89, 13);
+            this.lblSelectedStudent.Size = new System.Drawing.Size(116, 17);
             this.lblSelectedStudent.TabIndex = 182;
             this.lblSelectedStudent.Text = "Selected Student";
             // 
             // cbxSelectedStudent
             // 
             this.cbxSelectedStudent.FormattingEnabled = true;
-            this.cbxSelectedStudent.Location = new System.Drawing.Point(107, 107);
+            this.cbxSelectedStudent.Location = new System.Drawing.Point(143, 132);
+            this.cbxSelectedStudent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbxSelectedStudent.Name = "cbxSelectedStudent";
-            this.cbxSelectedStudent.Size = new System.Drawing.Size(106, 21);
+            this.cbxSelectedStudent.Size = new System.Drawing.Size(140, 24);
             this.cbxSelectedStudent.TabIndex = 183;
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(26, 259);
+            this.btnAdd.Location = new System.Drawing.Point(35, 319);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(75, 43);
+            this.btnAdd.Size = new System.Drawing.Size(100, 53);
             this.btnAdd.TabIndex = 184;
             this.btnAdd.Text = "Add Grade";
             this.btnAdd.UseVisualStyleBackColor = true;
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(132, 259);
+            this.btnDelete.Location = new System.Drawing.Point(176, 319);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(75, 43);
+            this.btnDelete.Size = new System.Drawing.Size(100, 53);
             this.btnDelete.TabIndex = 185;
             this.btnDelete.Text = "Delete Grade";
             this.btnDelete.UseVisualStyleBackColor = true;
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(26, 327);
+            this.btnEdit.Location = new System.Drawing.Point(35, 402);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(75, 43);
+            this.btnEdit.Size = new System.Drawing.Size(100, 53);
             this.btnEdit.TabIndex = 186;
             this.btnEdit.Text = "Edit Grade";
             this.btnEdit.UseVisualStyleBackColor = true;
             // 
             // btnCalculate
             // 
-            this.btnCalculate.Location = new System.Drawing.Point(132, 327);
+            this.btnCalculate.Location = new System.Drawing.Point(176, 402);
+            this.btnCalculate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCalculate.Name = "btnCalculate";
-            this.btnCalculate.Size = new System.Drawing.Size(75, 43);
+            this.btnCalculate.Size = new System.Drawing.Size(100, 53);
             this.btnCalculate.TabIndex = 187;
             this.btnCalculate.Text = "Calculate Total";
             this.btnCalculate.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(26, 439);
+            this.button5.Location = new System.Drawing.Point(35, 540);
+            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(181, 43);
+            this.button5.Size = new System.Drawing.Size(241, 53);
             this.button5.TabIndex = 188;
             this.button5.Text = "Return to Menu";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // mnuGrades
             // 
+            this.mnuGrades.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.mnuGrades.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuFile,
             this.mnuReport,
             this.mnuHelp});
             this.mnuGrades.Location = new System.Drawing.Point(0, 0);
             this.mnuGrades.Name = "mnuGrades";
-            this.mnuGrades.Size = new System.Drawing.Size(647, 24);
+            this.mnuGrades.Size = new System.Drawing.Size(863, 28);
             this.mnuGrades.TabIndex = 189;
             this.mnuGrades.Text = "menuStrip1";
             // 
@@ -166,32 +179,36 @@
             this.mnuItemLogOff,
             this.mnuItemExit});
             this.mnuFile.Name = "mnuFile";
-            this.mnuFile.Size = new System.Drawing.Size(37, 20);
+            this.mnuFile.Size = new System.Drawing.Size(46, 24);
             this.mnuFile.Text = "File";
             // 
             // mnuItemAttendance
             // 
             this.mnuItemAttendance.Name = "mnuItemAttendance";
-            this.mnuItemAttendance.Size = new System.Drawing.Size(180, 22);
+            this.mnuItemAttendance.Size = new System.Drawing.Size(224, 26);
             this.mnuItemAttendance.Text = "Attendance";
+            this.mnuItemAttendance.Click += new System.EventHandler(this.mnuItemAttendance_Click);
             // 
             // mnuItemReturn
             // 
             this.mnuItemReturn.Name = "mnuItemReturn";
-            this.mnuItemReturn.Size = new System.Drawing.Size(180, 22);
+            this.mnuItemReturn.Size = new System.Drawing.Size(224, 26);
             this.mnuItemReturn.Text = "Return to Menu";
+            this.mnuItemReturn.Click += new System.EventHandler(this.mnuItemReturn_Click);
             // 
             // mnuItemLogOff
             // 
             this.mnuItemLogOff.Name = "mnuItemLogOff";
-            this.mnuItemLogOff.Size = new System.Drawing.Size(180, 22);
+            this.mnuItemLogOff.Size = new System.Drawing.Size(224, 26);
             this.mnuItemLogOff.Text = "Log Off";
+            this.mnuItemLogOff.Click += new System.EventHandler(this.mnuItemLogOff_Click);
             // 
             // mnuItemExit
             // 
             this.mnuItemExit.Name = "mnuItemExit";
-            this.mnuItemExit.Size = new System.Drawing.Size(180, 22);
+            this.mnuItemExit.Size = new System.Drawing.Size(224, 26);
             this.mnuItemExit.Text = "Exit";
+            this.mnuItemExit.Click += new System.EventHandler(this.mnuItemExit_Click);
             // 
             // mnuReport
             // 
@@ -199,19 +216,19 @@
             this.mnuItemMidterm,
             this.mnuItemFinal});
             this.mnuReport.Name = "mnuReport";
-            this.mnuReport.Size = new System.Drawing.Size(54, 20);
+            this.mnuReport.Size = new System.Drawing.Size(68, 24);
             this.mnuReport.Text = "Report";
             // 
             // mnuItemMidterm
             // 
             this.mnuItemMidterm.Name = "mnuItemMidterm";
-            this.mnuItemMidterm.Size = new System.Drawing.Size(180, 22);
+            this.mnuItemMidterm.Size = new System.Drawing.Size(183, 26);
             this.mnuItemMidterm.Text = "Midterm Print";
             // 
             // mnuItemFinal
             // 
             this.mnuItemFinal.Name = "mnuItemFinal";
-            this.mnuItemFinal.Size = new System.Drawing.Size(180, 22);
+            this.mnuItemFinal.Size = new System.Drawing.Size(183, 26);
             this.mnuItemFinal.Text = "Final Print";
             // 
             // mnuHelp
@@ -220,36 +237,37 @@
             this.mnuItemAbout,
             this.mnuItemHelp});
             this.mnuHelp.Name = "mnuHelp";
-            this.mnuHelp.Size = new System.Drawing.Size(44, 20);
+            this.mnuHelp.Size = new System.Drawing.Size(55, 24);
             this.mnuHelp.Text = "Help";
             // 
             // mnuItemAbout
             // 
             this.mnuItemAbout.Name = "mnuItemAbout";
-            this.mnuItemAbout.Size = new System.Drawing.Size(180, 22);
+            this.mnuItemAbout.Size = new System.Drawing.Size(137, 26);
             this.mnuItemAbout.Text = "About ";
             // 
             // mnuItemHelp
             // 
             this.mnuItemHelp.Name = "mnuItemHelp";
-            this.mnuItemHelp.Size = new System.Drawing.Size(180, 22);
+            this.mnuItemHelp.Size = new System.Drawing.Size(137, 26);
             this.mnuItemHelp.Text = "Help";
             // 
             // lblGrades
             // 
             this.lblGrades.AutoSize = true;
             this.lblGrades.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGrades.Location = new System.Drawing.Point(250, 24);
+            this.lblGrades.Location = new System.Drawing.Point(333, 30);
+            this.lblGrades.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblGrades.Name = "lblGrades";
-            this.lblGrades.Size = new System.Drawing.Size(74, 24);
+            this.lblGrades.Size = new System.Drawing.Size(99, 31);
             this.lblGrades.TabIndex = 190;
             this.lblGrades.Text = "Grades";
             // 
             // frmGrades
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(647, 508);
+            this.ClientSize = new System.Drawing.Size(863, 625);
             this.Controls.Add(this.lblGrades);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.btnCalculate);
@@ -263,6 +281,7 @@
             this.Controls.Add(this.lblSelectedClass);
             this.Controls.Add(this.mnuGrades);
             this.MainMenuStrip = this.mnuGrades;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmGrades";
             this.Text = "Grades";
             ((System.ComponentModel.ISupportInitialize)(this.dgvGrades)).EndInit();

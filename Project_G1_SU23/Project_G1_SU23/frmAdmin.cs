@@ -10,16 +10,25 @@ using System.Windows.Forms;
 
 namespace Project_G1_SU23
 {
-    public partial class frmDepartmentHead : Form
+    public partial class frmAdmin : Form
     {
-        public frmDepartmentHead()
+        public frmAdmin()
         {
             InitializeComponent();
         }
 
-        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        private void mnuItemLogOff_Click(object sender, EventArgs e)
         {
-            this.Visible = false;
+            try
+            {
+                ProgOps.CloseDisposeDatabase();
+                MessageBox.Show("Database connection closed.", "Connection Closed", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+
+            }
+            this.Close();
             frmLogOn logon = new frmLogOn();
             logon.ShowDialog();
         }
@@ -30,12 +39,6 @@ namespace Project_G1_SU23
         }
 
         private void mnuitemGrades_Click(object sender, EventArgs e)
-        {
-            frmGrades grades = new frmGrades();
-            grades.ShowDialog();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
         {
             frmGrades grades = new frmGrades();
             grades.ShowDialog();
@@ -53,6 +56,12 @@ namespace Project_G1_SU23
             editTeacher.ShowDialog();
         }
 
+        private void btnClasses_Click(object sender, EventArgs e)
+        {
+            frmEditClasses editClasses = new frmEditClasses();
+            editClasses.ShowDialog();
+        }
+
         private void mnuItemsStudents_Click(object sender, EventArgs e)
         {
             frmStudentEdit studentEdit = new frmStudentEdit();
@@ -65,10 +74,10 @@ namespace Project_G1_SU23
             editTeacher.ShowDialog();
         }
 
-        private void btnAttendance_Click(object sender, EventArgs e)
+        private void classesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmAttendance Attendance = new frmAttendance();
-            Attendance.ShowDialog();
+            frmEditClasses editClasses = new frmEditClasses();
+            editClasses.ShowDialog();   
         }
     }
 }
